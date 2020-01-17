@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9d1e506b14314b38aa23c3e9dead891f" Name="Diagram1">
+        <EntityTypeShape EntityType="SeeYouLatteModel.Category" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SeeYouLatteModel.Employee" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SeeYouLatteModel.OrderDetail" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SeeYouLatteModel.Order" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SeeYouLatteModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SeeYouLatteModel.Role" Width="1.5" PointX="1.5" PointY="8.375" IsExpanded="true" />
+        <AssociationConnector Association="SeeYouLatteModel.FK__Products__Catego__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="SeeYouLatteModel.FK__Employees__RoleI__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="SeeYouLatteModel.FK__Orders__Employee__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="SeeYouLatteModel.FK__OrderDeta__Order__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="SeeYouLatteModel.FK__OrderDeta__Produ__48CFD27E" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
